@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 
 interface IModalProps {
     closeModal: React.Dispatch<React.SetStateAction<boolean>>
