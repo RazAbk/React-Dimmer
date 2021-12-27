@@ -30,7 +30,7 @@ In order to use this correctly, use the useState hook:
 const [isMenuOpen, setMenuOpen] = useState(false)
 ```
 
-* isMenuOpen - a boolean that determines whether a memu / modal etc... is open
+* isMenuOpen - a boolean that determines whether a menu / modal etc... is open
 * setMenuOpen - a react setState function passed into ReactDimmer, in order to set the menu / modal close once the dimmer is clicked
 
 # Options
