@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -36,6 +36,10 @@
   "name": "react-dimmer",
   "author": "RazAbk",
   "module": "dist/react-dimmer.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RazAbk/React-Dimmer.git"
+  },
   "size-limit": [
     {
       "path": "dist/react-dimmer.cjs.production.min.js",
