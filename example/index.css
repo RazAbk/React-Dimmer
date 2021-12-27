@@ -61,3 +61,65 @@ h1, h2, h3, h4, h5, h6, button{
     border-radius: 10px;
     cursor: pointer;
 }
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 50vh;
+    min-width: 20rem;
+    min-height: 25rem;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    z-index: 200;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.modal .modal-header{
+    height: 2.5rem;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(29, 29, 29);
+    position: relative;
+}
+
+.modal .modal-header h2{
+    color: white;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 0;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.modal .modal-body{
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.app-menu{
+    color: white;
+    height: 100vh;
+    width: 20rem;
+    background-color: #292929;
+    z-index: 200;
+
+    transform: translateX(-100%);
+    transition: 0.3s;
+    
+    position: fixed;
+    left: 0;
+    top:0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu-open{
+    transform: translateX(0%);
+}
