@@ -44,3 +44,8 @@ You can use many options to style the dimmer:
 * blur - set the background's blur (0 - infinity)
 * saturate - set the background's saturation in precentage (0% - 100%) (100% is regular)
 * transition - set the speed of the dimmer appearens in seconds (0 - infinity)
+
+
+# More Info
+
+This package was easy to build thanks to <a href="https://tsdx.io/">TSDX</a>, Check it out
