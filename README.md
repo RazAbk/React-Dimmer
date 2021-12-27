@@ -35,15 +35,17 @@ const [isMenuOpen, setMenuOpen] = useState(false)
 
 # Options
 
-You can use many options to style the dimmer:
+You can use these options to style the dimmer:
 
 (all of the properties must be passed as numbers)
 
-* zIndex - set the z-index property of the dimmer (any number)
-* opacity - set the opacity in precentage (0% - 100%)
-* blur - set the background's blur (0 - infinity)
-* saturate - set the background's saturation in precentage (0% - 100%) (100% is regular)
-* transition - set the speed of the dimmer appearens in seconds (0 - infinity)
+| Prop            | Description                                      | Default value | Range        |
+| :-------------: | :-------------:                                  | :-----:       | :-------:    |
+| zIndex          | set the z-index property of the dimmer           | 100           | all numbers  |
+| opacity         | set the opacity in precentage                    | 0.5           | 0 - 1        |
+| blur            | set the background's blur                        | 0             | 0 - infinity |
+| saturate        | set the background's saturation                  | 100           | 0 - 100      |
+| transition      | set the speed of the dimmer appearens in seconds | 0.3           | 0 - infinity |
 
 
 # More Info
