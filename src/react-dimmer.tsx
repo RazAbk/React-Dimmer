@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './react-dimmer.css'
 
-interface IDimmerProps {
+export interface IDimmerProps {
   isOpen: boolean;
   exitDimmer: (action: boolean) => void;
   zIndex?: number;
