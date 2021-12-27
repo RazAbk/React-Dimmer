@@ -8,7 +8,6 @@
     transform: translate(-50%, -50%);
     width: 120vw;
     height: 120vh;
-    z-index: 90;
     
     transition: 0.3s;
 }

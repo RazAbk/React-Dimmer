@@ -3,6 +3,8 @@ import * as React from 'react';
 import { useState } from 'react'
 import * as ReactDOM from 'react-dom';
 import { ReactDimmer } from '../src/react-dimmer'
+import './app.css'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const App = () => {
 
@@ -12,13 +14,20 @@ const App = () => {
     setDimmer(prevState => !prevState)
   }
 
-  console.log('i am')
-
   return (
     <>
       <div className="app">
-        <button onClick={handleClick}>click me</button>
+        <div className="header">
+          <GiHamburgerMenu className="menu-btn" onClick={handleClick}/>
+          <h1>Example App</h1>
+          <div className="nav">
+          </div>
+        </div>
+        <div className="body">
+          <button onClick={handleClick}>Open Modal</button>
+        </div>
       </div>
+
       <ReactDimmer isOpen={isDimmer} exitDimmer={setDimmer} />
     </>
   );
