@@ -2,7 +2,7 @@
 
 react-dimmer is an easy to use React component that allows you to dim your app's background while a menu / modal is open, in order to get the user's focus on it.
 
-<a href="https://codesandbox.io/s/react-dimmer-7k18i">Watch the demo</a>
+<a href="https://codesandbox.io/s/react-dimmer-7k18i" target="_blank">Watch the demo</a>
 
 # Usage
 
