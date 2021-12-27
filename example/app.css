@@ -1,0 +1,63 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("./fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoCondensed-Light;
+    src: url("./fonts/RobotoCondensed-Light.ttf");
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background: rgb(233, 233, 233);
+}
+
+h1, h2, h3, h4, h5, h6, button{
+    font-family: RobotoCondensed-Light, OpenSans-Regular;
+}
+
+.app{
+    width: 100vw;
+    height: 100vh;
+}
+
+.app .header{
+    height: 5rem;
+    width: 100%;
+    background-color: #292929;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: white;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .menu-btn{
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+.header .nav{
+    display: flex;
+    gap: 1rem;
+}
+
+.app .body{
+    height: calc(100% - 5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app .body button{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
