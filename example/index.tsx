@@ -1,12 +1,12 @@
-import "react-app-polyfill/ie11";
-import * as React from "react";
-import { useState } from "react"
-import * as ReactDOM from "react-dom";
-import { GiHamburgerMenu } from "react-icons/gi"
-import "./index.css"
-import { ReactDimmer } from "../src/react-dimmer"
-import { Modal } from "./components/Modal";
-import { Menu } from "./components/Menu";
+import 'react-app-polyfill/ie11';
+import * as React from 'react';
+import { useState } from 'react'
+import * as ReactDOM from 'react-dom';
+import { GiHamburgerMenu } from 'react-icons/gi'
+import './index.css'
+import { ReactDimmer } from '../src/react-dimmer'
+import { Modal } from './components/Modal';
+import { Menu } from './components/Menu';
 
 const App = () => {
 
@@ -23,14 +23,14 @@ const App = () => {
 
   return (
     <>
-      <div className="app">
-        <div className="header">
-          <GiHamburgerMenu className="menu-btn" onClick={handleMenu}/>
+      <div className='app'>
+        <div className='header'>
+          <GiHamburgerMenu className='menu-btn' onClick={handleMenu}/>
           <h1>Example App</h1>
-          <div className="nav">
+          <div className='nav'>
           </div>
         </div>
-        <div className="body">
+        <div className='body'>
           <button onClick={handleClick}>Open Modal</button>
         </div>
       </div>
@@ -44,4 +44,4 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'));
