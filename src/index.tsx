@@ -1,1 +1,1 @@
-export * from "./react-dimmer"
+export * from './react-dimmer';
