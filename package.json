@@ -28,10 +28,12 @@
     }
   },
   "prettier": {
-    "printWidth": 80,
+    "printWidth": 300,
+    "tabWidth": 2,
     "semi": true,
     "singleQuote": true,
-    "trailingComma": "es5"
+    "trailingComma": "es5",
+    "endOfLine":"auto"
   },
   "name": "react-dimmer",
   "author": "RazAbk",
